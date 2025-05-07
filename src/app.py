@@ -89,8 +89,7 @@ def get_activities():
         activity_name: {
             "description": details["description"],
             "schedule": details["schedule"],
-            "max_participants": details["max_participants"],
-            "participants": details["participants"]  # Lista os participantes já inscritos
+            "max_participants": details["max_participants"]
         }
         for activity_name, details in activities.items()
     }
